@@ -220,6 +220,8 @@
     width: 322px;
     margin-bottom: 2px;
     border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
+
 }
 
 .challenges-cards .card h3 {
@@ -247,4 +249,67 @@
 
 .challenges-cards .card-four img {
     margin: 55px 131px 16px 131px
+}
+
+
+/* solution section design */
+
+.solution-container {
+    width: 1360px;
+    padding-top: 120px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+}
+
+.solution-text {
+    margin-top: 102px;
+}
+
+.solution-container .solution-text .solution-text-top {
+    margin-bottom: 40px;
+}
+
+.solution-container .solution-text {
+    width: 700px;
+
+}
+
+
+.solution-container .solution-img {
+    width: 600px;
+    height: 600px;
+}
+
+.solution-text .solution-paraone {
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    margin-bottom: 16px;
+
+}
+
+.solution-text .solution-text-top h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.solution-text .solution-paratwo {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+
+
+
+.solution-text .solution-text-list li {
+    list-style: none;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.solution-text .solution-text-list img {
+    margin: 3.75px;
 }
