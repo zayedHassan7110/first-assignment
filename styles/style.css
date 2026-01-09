@@ -13,7 +13,7 @@
 
 .container {
     max-width: 1600px;
-    /* background-color: red; */
+    /* background-color: rgb(173, 97, 97); */
     margin: 0 auto;
 }
 
@@ -57,4 +57,133 @@
     color: #ffffff;
     font-size: 16px;
     font-weight: 600;
+}
+
+/* hero section design */
+.hero-container {
+    width: 100%;
+    height: 674px;
+    background-image: url('../assets/hero-bg.png');
+    padding: 115.5px 120px 117.5px 120px;
+}
+
+.hero-info {
+    width: 1360px;
+    height: 379px;
+    /* background-color: red; */
+    text-align: center;
+}
+
+.hero-top-btn {
+    width: 229px;
+    height: 35px;
+    border-radius: 1000px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 9px 8px 8px 0px;
+    color: #469165;
+    margin-bottom: 16px;
+
+}
+
+/* .hero-top-btn img {
+    width: 16px;
+    height: 16px;
+    margin-top: 5.5px;
+
+} */
+
+
+.hero-heading {
+    width: 770px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.hero-heading h1 {
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+    line-height: 84px;
+}
+
+.hero-heading h1 span {
+    color: #30B868;
+}
+
+.hero-info p {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+
+.hero-bottom-btn {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.hero-bottom-btn .hero-bottom-btn-one {
+    display: block;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #30B868;
+    border: none;
+    border-radius: 4px;
+    padding: 16.5px 16px 16.5px 16px;
+    margin-bottom: 3px;
+    display: flex;
+    gap: 10px;
+}
+
+.hero-bottom-btn-one * {
+    display: block;
+}
+
+.hero-bottom-btn-one img {
+    width: 20px;
+    height: 20px;
+}
+
+.hero-bottom-btn .hero-bottom-btn-two {
+    display: block;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 16.5px 16px 16.5px 16px;
+    margin-bottom: 3px;
+    display: flex;
+    gap: 10px;
+}
+
+.hero-bottom-btn-two img {
+    margin-top: -1px;
+}
+
+
+/* Challenges section design */
+.challenges {
+    padding: 0px 120px;
+}
+
+.challenges .challenges-header {
+    width: 1360px;
+    height: 152px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.challenges .challenges-header h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
 }
