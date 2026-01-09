@@ -89,17 +89,20 @@
     font-weight: 500;
     padding: 9px 8px 8px 0px;
     color: #469165;
+    margin: 0 auto;
     margin-bottom: 16px;
     cursor: pointer;
-
+    display: flex;
+    gap: 6px;
 }
 
-/* .hero-top-btn img {
-    width: 16px;
-    height: 16px;
-    margin-top: 5.5px;
+.hero-top-btn .hero-top-btn-icon {
+    margin-left: 12px;
+}
 
-} */
+.hero-top-btn:hover {
+    background-color: rgb(255, 255, 255);
+}
 
 
 .hero-heading {
