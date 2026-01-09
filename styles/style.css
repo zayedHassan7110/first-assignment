@@ -62,6 +62,7 @@
     color: #ffffff;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* hero section design */
@@ -89,6 +90,7 @@
     padding: 9px 8px 8px 0px;
     color: #469165;
     margin-bottom: 16px;
+    cursor: pointer;
 
 }
 
@@ -143,6 +145,11 @@
     margin-bottom: 3px;
     display: flex;
     gap: 10px;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
 }
 
 .hero-bottom-btn-one * {
@@ -158,6 +165,10 @@
     height: 20px;
 }
 
+.hero-bottom-btn .hero-bottom-btn-one:hover {
+    box-shadow: 0px 10px 20px 0px rgb(255, 255, 255, .10);
+}
+
 .hero-bottom-btn .hero-bottom-btn-two {
     display: block;
     color: white;
@@ -170,10 +181,15 @@
     margin-bottom: 3px;
     display: flex;
     gap: 10px;
+    cursor: pointer;
 }
 
 .hero-bottom-btn-two img {
     margin-top: -1px;
+}
+
+.hero-bottom-btn-two:hover {
+    box-shadow: 0px 10px 20px 0px #30B8681a;
 }
 
 
@@ -366,6 +382,12 @@
     margin: 0 auto;
     background-color: #469165;
     margin-bottom: 16px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.early-access-content-access .hero-bottom-btn-one:hover {
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.25);
+
 }
 
 
